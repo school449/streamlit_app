@@ -46,3 +46,17 @@ fig = px.pie(
 st.plotly_chart(fig)
 
  summary_df.style.applymap(style_and_format) 数値によって色分けする
+
+### 授業外の要素
+1.current_rank: rank関数を使ったランキングの導出  
+2.st.plotly_chart(fig): 円グラフ  
+3.summary_df.style.applymap(style_and_format): 数値によって色分け  
+
+### 使用した理由
+1.ランキングにしたほうが見やすいと思ったため  
+2.円グラフにすることで男女比率がより見やすくなると思ったため  
+3.色分けしてあるほうがより見やすいと思ったため  
+
+### 生成AIについて
+1.使用しました  
+2.色分けする部分であったり、rank関数であったり、授業で習ってない部分の実装についてをAIに聞いて実装しました
