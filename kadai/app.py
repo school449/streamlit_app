@@ -5,7 +5,7 @@ import os
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-df = pd.read_csv('data.csv', encoding='UTF-8')
+df = pd.read_csv('data.csv', encoding='shift_jis')
 
 col_pref = df.columns[0]
 col_year = df.columns[1]
